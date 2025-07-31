@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/1675664711_grizly-club-p-fon-ferma-klipart-42.jpg);
+  background-size: cover;
+}
+.contener1 {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  align-items: center;
+}
+.pearent {
+  width: 500px;
+  height: 300px;
+}
+.pearent1 {
+  background-image: url(../img/1.avif);
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+.pearent2 {
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.pearent3 {
+  background-image: url(../img/3.avif);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub1 {
+  background-image: url(../img/cow-cartoon-colored-clipart-illustration_576561-664.jpg);
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.sub2 {
+  background-image: url(../img/طير.jpeg);
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.sub3 {
+  background-image: url(../img/غنمه.png);
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.contener2 {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+.sub {
+  transition: 2s;
+}
+.sub:hover {
+  transform: scale(1.05, 1.05);
+}
